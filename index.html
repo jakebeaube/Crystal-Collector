@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Skull Collector!</title>
+	<link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	
+</head>
+<body>
+
+<div id = "wrapper">
+
+<div id= "h1">
+<h1>Crystal Skull Collector</h1>
+</div>
+
+<div id="instructions">
+	<p>I'll give you a random number at the beginning of each game.</p>
+	<p>There are four skulls, each one is assigned a random value per round. Clicking on a skull will add its value to the total. </p>
+	<p>If you match the random number, you win! If you go over the amount, you lose!</p>
+
+</div>
+
+<div class = "container">
+		<div id="randomNumber">
+			<h2>Your Random Number: <span class="value"></span></h2>
+		</div>
+
+		<div id ="score">
+			<h3><span id="status"></span></h3>
+			<h3>Wins: <span id="win"></span></h3>
+			<h3>Losses: <span id="loss"></span></h3>
+		</div>
+	</div>
+
+
+	<div id="skulls"></div>
+
+	<div id ="totalScore">
+		<h2 id = "yts">Total Score: <span id ="yourScore">0</span></h2>
+
+	</div>
+
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+	
+
+
+
+
+
+</body>
+</html>
