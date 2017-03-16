@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	skulls = ['assets/images/red.png','assets/images/purple.png','assets/images/black.png','assets/images/green.png'];
+	skulls = ['assets/images/red.png','assets/images/purple.gif','assets/images/blue.gif','assets/images/green.gif'];
 
 	var counter = 0;
 	var wins = 0;

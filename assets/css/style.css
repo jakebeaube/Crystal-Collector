@@ -1,6 +1,6 @@
 body {
 	background-image: url("http://wallpapercave.com/wp/jQtYNjK.png");
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
     background-attachment: fixed;
     background-position: center; 
     text-align: center;
@@ -14,16 +14,29 @@ body {
 #wrapper {
 	font-family: 'Freckle Face', cursive;
 	color: #0fe04c;
-	background-color: #030e06;
+	
 	
 }
 
-#h1 {
-	font-size: 10px;
+
+#box {
+	background: #030e06;
+}
+
+h1 {
+	font-size: 50px;
+	background: #030e06;
 }
 
 #instructions {
 	font-size: 26px;
+	background: #030e06;
+}
+
+#totalScore {
+	background: #030e06;
+	margin-bottom: auto;
+	font-size: 40px;
 }
 
 
@@ -33,9 +46,6 @@ body {
 
 
 #skulls {
-	background: #ececec;
 	margin-left: auto;
 	margin-right: auto;
-	border-style: solid;
-	border-color: #030e06;
 }
